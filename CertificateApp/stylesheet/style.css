@@ -1,0 +1,89 @@
+.textStyle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+
+}
+.textStyle2{
+    text-align: right;
+    border: hidden;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style:hidden;
+    
+}
+
+body {
+    background-color:  #ecf0f1;
+}
+
+.boxModel{
+    text-align: justify;
+    background-color:white;
+    width:80%;
+    height:20%;
+    padding-top:20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    border-style:hidden;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    outline-style:hidden;
+    
+}
+
+.cellModel {
+    border-style: hidden;
+    outline-style:inset;
+
+}
+
+td {
+    width: 100%;
+}
+
+nav :hover{
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+.navBar{
+    
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    gap: 10px;
+}
+
+.navBar a{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: white;
+        
+}
+
+@media only screen and (max-width:600px){
+    .textStyle{
+       font-size: 10px;
+    }
+    /* .coloumn {
+       width: 100%;
+    } */
+    .coloumn.side{
+       width: 100%;
+    }
+    .coloumn.main{
+       width: 100%;
+    }
+    table{
+        width: 25%;
+    }
+   
+ }
